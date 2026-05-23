@@ -15,6 +15,7 @@ A comprehensive learning repository for JavaScript fundamentals and Playwright a
   - [Chapter 3: Identifiers & Literals](#chapter-3-identifiers--literals)
   - [Chapter 4: JavaScript Basics (Hoisting, TDZ)](#chapter-4-javascript-basics-hoisting-tdz)
   - [Chapter 5: Literals](#chapter-5-literals)
+  - [Chapter 6: Operators](#chapter-6-operators)
 - [Comprehensive Examples](#comprehensive-examples)
 - [VS Code Shortcuts](#vs-code-shortcuts)
 - [How to Run](#how-to-run)
@@ -63,6 +64,23 @@ LearnPlaywrightbatch2x/
 │   ├── ex26_Literal_Number_all.js              # All Number types supported in JavaScript
 │   ├── ex29_Backtick_single_double.js          # Difference between backtick, single & double quotes
 │   └── Literal_All.js
+│
+├── chapter_06_Operators/                       # Chapter 6: Operators (Arithmetic, Comparison, Logical, etc.)
+│   ├── 30_Assignment_operator.js
+│   ├── 31_Arithmatic_Operator.js
+│   ├── 32_Modulos_Operator.js
+│   ├── 33_exponential_Operator.js
+│   ├── 34_Compound_operator.js
+│   ├── 35_Comparison_Operator.js
+│   ├── 36_comaprison_Loose_Strict.js
+│   ├── 37_Loose_Vs_Strict.js
+│   ├── 38_Confusing_Comparsion.js              # Confusing == vs === comparison cases
+│   ├── 39_Logical_Operator.js
+│   ├── 40_String_Concatination.js
+│   ├── 41_Ternary_operator.j
+│   ├── 42_Type_operator.js
+│   ├── 43_Increment_Decrement_operator.js
+│   └── 44_Null_operator.js
 │
 ├── all_examples_in_one.js                      # All JavaScript Examples in Single File
 ├── javascript_comprehensive.js                 # Comprehensive JavaScript Reference
@@ -171,6 +189,36 @@ All about JavaScript literals — numbers, strings, null, and undefined.
 - String literals: `' '`, `" "`, `` ` ` `` (backticks for interpolation & multiline)
 - `null` vs `undefined`
 - Numeric separators (`1_000_000`)
+
+### Chapter 6: Operators
+
+All JavaScript operators — arithmetic, comparison, logical, assignment, and more.
+
+| File | Topic | Description |
+|------|-------|-------------|
+| `30_Assignment_operator.js` | Assignment | `=`, assigning values to variables |
+| `31_Arithmatic_Operator.js` | Arithmetic | `+`, `-`, `*`, `/` basic math |
+| `32_Modulos_Operator.js` | Modulo | `%` remainder operator |
+| `33_exponential_Operator.js` | Exponentiation | `**` power operator |
+| `34_Compound_operator.js` | Compound Assignment | `+=`, `-=`, `*=`, `/=` shorthand |
+| `35_Comparison_Operator.js` | Comparison | `>`, `<`, `>=`, `<=`, `==`, `===` |
+| `36_comaprison_Loose_Strict.js` | Loose vs Strict | Differences between `==` and `===` |
+| `37_Loose_Vs_Strict.js` | Loose vs Strict Deep Dive | More examples on loose vs strict equality |
+| `38_Confusing_Comparsion.js` | Confusing Comparisons | Tricky `==` coercion cases and why to prefer `===` |
+| `39_Logical_Operator.js` | Logical | `&&`, `\|\|`, `!` boolean logic |
+| `40_String_Concatination.js` | String Concatenation | Joining strings with `+` or template literals |
+| `41_Ternary_operator.j` | Ternary | `condition ? value1 : value2` shorthand |
+| `42_Type_operator.js` | Type Operators | `typeof`, `instanceof` |
+| `43_Increment_Decrement_operator.js` | Increment/Decrement | `++`, `--` pre/post fix |
+| `44_Null_operator.js` | Nullish Coalescing | `??` operator for null/undefined defaults |
+
+**Key Concepts:**
+- Arithmetic, assignment, and compound operators
+- Loose (`==`) vs strict (`===`) equality — always prefer `===`
+- Logical operators for boolean logic
+- Ternary operator for concise conditionals
+- Nullish coalescing (`??`) for default values
+- Type coercion traps and how to avoid them
 
 ---
 
@@ -281,8 +329,10 @@ Follow this order for best results:
 7. **Literals:** `chapter_05_Literals/22_literal.js`
 8. **Number Types:** `chapter_05_Literals/ex26_Literal_Number_all.js`
 9. **String Quotes:** `chapter_05_Literals/ex29_Backtick_single_double.js`
-10. **All Together:** `all_examples_in_one.js`
-11. **Reference:** `javascript_comprehensive.js`
+10. **Operators:** `chapter_06_Operators/31_Arithmatic_Operator.js`
+11. **Confusing Comparisons:** `chapter_06_Operators/38_Confusing_Comparsion.js`
+12. **All Together:** `all_examples_in_one.js`
+13. **Reference:** `javascript_comprehensive.js`
 
 ---
 
