@@ -45,7 +45,9 @@ LearnPlaywrightbatch2x/
 │   ├── 05_JS_Basics.js                         # Variable Declarations (var, let, const)
 │   ├── 06_identifiers_Rules.js                 # Identifier Naming Rules
 │   ├── 07_identifiers_part2.js                 # Naming Conventions (camelCase, PascalCase, etc.)
-│   └── 08_comments.js                          # Comments in JavaScript
+│   ├── 08_comments.js                          # Comments in JavaScript
+│   ├── all_examples_in_one.js                  # All JavaScript Examples in Single File
+│   └── javascript_comprehensive.js             # Comprehensive JavaScript Reference
 │
 ├── chapter_03_Identifier_Literals/             # Chapter 3: Reference Materials
 │   ├── VS_Code_keyboard_shortcut_mac.md        # VS Code Shortcuts for Mac
@@ -82,8 +84,6 @@ LearnPlaywrightbatch2x/
 │   ├── 43_Increment_Decrement_operator.js
 │   └── 44_Null_operator.js
 │
-├── all_examples_in_one.js                      # All JavaScript Examples in Single File
-├── javascript_comprehensive.js                 # Comprehensive JavaScript Reference
 └── javascript_reference.md                     # JavaScript Reference Documentation
 ```
 
@@ -224,7 +224,7 @@ All JavaScript operators — arithmetic, comparison, logical, assignment, and mo
 
 ## Comprehensive Examples
 
-### `all_examples_in_one.js`
+### `chapter_02_JavaScript_Concepts/all_examples_in_one.js`
 
 A single file containing **all JavaScript concepts** with practical examples:
 
@@ -247,7 +247,7 @@ A single file containing **all JavaScript concepts** with practical examples:
 17. **Advanced Features** - `Symbol`, `BigInt`, template literals
 18. **Practical Example** - Complete User Management system
 
-### `javascript_comprehensive.js`
+### `chapter_02_JavaScript_Concepts/javascript_comprehensive.js`
 
 Comprehensive reference covering:
 - All JavaScript keywords
@@ -287,7 +287,7 @@ Master your editor with our comprehensive shortcut guides:
 node chapter_01_Basics/01_Basics.js
 
 # Run comprehensive examples
-node all_examples_in_one.js
+node chapter_02_JavaScript_Concepts/all_examples_in_one.js
 
 # Run specific concept files
 node chapter_02_JavaScript_Concepts/07_identifiers_part2.js
@@ -331,8 +331,8 @@ Follow this order for best results:
 9. **String Quotes:** `chapter_05_Literals/ex29_Backtick_single_double.js`
 10. **Operators:** `chapter_06_Operators/31_Arithmatic_Operator.js`
 11. **Confusing Comparisons:** `chapter_06_Operators/38_Confusing_Comparsion.js`
-12. **All Together:** `all_examples_in_one.js`
-13. **Reference:** `javascript_comprehensive.js`
+12. **All Together:** `chapter_02_JavaScript_Concepts/all_examples_in_one.js`
+13. **Reference:** `chapter_02_JavaScript_Concepts/javascript_comprehensive.js`
 
 ---
 
