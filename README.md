@@ -13,6 +13,8 @@ A comprehensive learning repository for JavaScript fundamentals and Playwright a
   - [Chapter 1: Basics](#chapter-1-basics)
   - [Chapter 2: JavaScript Concepts](#chapter-2-javascript-concepts)
   - [Chapter 3: Identifiers & Literals](#chapter-3-identifiers--literals)
+  - [Chapter 4: JavaScript Basics (Hoisting, TDZ)](#chapter-4-javascript-basics-hoisting-tdz)
+  - [Chapter 5: Literals](#chapter-5-literals)
 - [Comprehensive Examples](#comprehensive-examples)
 - [VS Code Shortcuts](#vs-code-shortcuts)
 - [How to Run](#how-to-run)
@@ -47,6 +49,20 @@ LearnPlaywrightbatch2x/
 ├── chapter_03_Identifier_Literals/             # Chapter 3: Reference Materials
 │   ├── VS_Code_keyboard_shortcut_mac.md        # VS Code Shortcuts for Mac
 │   └── VS_Code_keyboard_shortcut_windows.md    # VS Code Shortcuts for Windows
+│
+├── chapter_04_JavaScript_Basics/               # Chapter 4: JavaScript Basics (Let, Const, Hoisting, TDZ)
+│   ├── 18_Let_Hoisting.js
+│   ├── 19_Let_Hiositing_Block copy.js
+│   ├── 20_Let_Const_TDZ.js
+│   └── 21_Jr_QA.js
+│
+├── chapter_05_Literals/                        # Chapter 5: Literals (Number, String, null, undefined)
+│   ├── 22_literal.js
+│   ├── 23_null_undefined.js
+│   ├── 24_null.js
+│   ├── ex26_Literal_Number_all.js              # All Number types supported in JavaScript
+│   ├── ex29_Backtick_single_double.js          # Difference between backtick, single & double quotes
+│   └── Literal_All.js
 │
 ├── all_examples_in_one.js                      # All JavaScript Examples in Single File
 ├── javascript_comprehensive.js                 # Comprehensive JavaScript Reference
@@ -117,6 +133,44 @@ Reference materials and productivity tools.
 - Keyboard shortcuts for faster coding
 - Editor productivity tips
 - Cross-platform shortcut differences
+
+### Chapter 4: JavaScript Basics (Hoisting, TDZ)
+
+Understanding how JavaScript handles variable declarations, hoisting, and the Temporal Dead Zone (TDZ).
+
+| File | Topic | Description |
+|------|-------|-------------|
+| `18_Let_Hoisting.js` | Let Hoisting | How `let` variables are hoisted but not initialized |
+| `19_Let_Hiositing_Block copy.js` | Block Scope Hoisting | Hoisting behavior inside block scopes |
+| `20_Let_Const_TDZ.js` | TDZ (Temporal Dead Zone) | Understanding the dead zone for `let` and `const` |
+| `21_Jr_QA.js` | Junior QA Concepts | Common interview questions and concepts for QA |
+
+**Key Concepts:**
+- Variable hoisting differences (`var` vs `let`/`const`)
+- Temporal Dead Zone (TDZ)
+- Block scope vs function scope
+- Common QA interview topics
+
+### Chapter 5: Literals
+
+All about JavaScript literals — numbers, strings, null, and undefined.
+
+| File | Topic | Description |
+|------|-------|-------------|
+| `22_literal.js` | Literals Intro | Introduction to JavaScript literals |
+| `23_null_undefined.js` | null & undefined | Difference between null and undefined |
+| `24_null.js` | null | Understanding the null value |
+| `ex26_Literal_Number_all.js` | Number Literals | All number types: decimal, hex, binary, octal, BigInt, scientific notation |
+| `ex29_Backtick_single_double.js` | String Quotes | Difference between backtick, single quote, and double quote |
+| `Literal_All.js` | All Literals | Comprehensive overview of all literals |
+
+**Key Concepts:**
+- Integer, float, and scientific notation
+- Hexadecimal (`0x`), Binary (`0b`), Octal (`0o`) literals
+- BigInt for arbitrary precision integers
+- String literals: `' '`, `" "`, `` ` ` `` (backticks for interpolation & multiline)
+- `null` vs `undefined`
+- Numeric separators (`1_000_000`)
 
 ---
 
@@ -223,8 +277,12 @@ Follow this order for best results:
 3. **Naming:** `chapter_02_JavaScript_Concepts/06_identifiers_Rules.js`
 4. **Conventions:** `chapter_02_JavaScript_Concepts/07_identifiers_part2.js`
 5. **Comments:** `chapter_02_JavaScript_Concepts/08_comments.js`
-6. **All Together:** `all_examples_in_one.js`
-7. **Reference:** `javascript_comprehensive.js`
+6. **Hoisting & TDZ:** `chapter_04_JavaScript_Basics/18_Let_Hoisting.js`
+7. **Literals:** `chapter_05_Literals/22_literal.js`
+8. **Number Types:** `chapter_05_Literals/ex26_Literal_Number_all.js`
+9. **String Quotes:** `chapter_05_Literals/ex29_Backtick_single_double.js`
+10. **All Together:** `all_examples_in_one.js`
+11. **Reference:** `javascript_comprehensive.js`
 
 ---
 
