@@ -16,6 +16,7 @@ A comprehensive learning repository for JavaScript fundamentals and Playwright a
   - [Chapter 4: JavaScript Basics (Hoisting, TDZ)](#chapter-4-javascript-basics-hoisting-tdz)
   - [Chapter 5: Literals](#chapter-5-literals)
   - [Chapter 6: Operators](#chapter-6-operators)
+  - [Chapter 7: Statements (If/Else, Switch)](#chapter-7-statements-ifelse-switch)
 - [Comprehensive Examples](#comprehensive-examples)
 - [VS Code Shortcuts](#vs-code-shortcuts)
 - [How to Run](#how-to-run)
@@ -83,6 +84,18 @@ LearnPlaywrightbatch2x/
 │   ├── 42_Type_operator.js
 │   ├── 43_Increment_Decrement_operator.js
 │   └── 44_Null_operator.js
+│
+├── chapter_07_Statements/                      # Chapter 7: Control Flow (If/Else, Switch Case)
+│   ├── 48_If_Else.js                           # Basic If/Else statement
+│   ├── 49_If_Elseif_els.js                     # If/Else If/Else ladder
+│   ├── 50_Real_IF_Else.js                      # Real-world nested If/Else (Role-based access)
+│   ├── 51_API_If_else.js                       # API response handling with If/Else
+│   ├── 52_IQ-Even_Odd_Check.js                 # IQ: Even or Odd number check
+│   ├── 53_IQ-ELeapYearCheck.js                 # IQ: Leap year checker
+│   ├── 54-if-elseif.js                         # If/Else If practice examples
+│   ├── 55_Switch_Case.js                       # Switch Case statement
+│   ├── 56_IQ_HTTP Status Code Categorizer.js   # IQ: HTTP Status Code categorizer
+│   └── 57_IQ_oddnum check.js                   # IQ: Odd number check
 │
 └── javascript_reference.md                     # JavaScript Reference Documentation
 ```
@@ -220,6 +233,31 @@ All JavaScript operators — arithmetic, comparison, logical, assignment, and mo
 - Nullish coalescing (`??`) for default values
 - Type coercion traps and how to avoid them
 
+### Chapter 7: Statements (If/Else, Switch)
+
+Control flow statements — the backbone of decision-making in JavaScript.
+
+| File | Topic | Description |
+|------|-------|-------------|
+| `48_If_Else.js` | Basic If/Else | Simple conditional checks |
+| `49_If_Elseif_els.js` | If/Else If/Else | Multiple condition ladder |
+| `50_Real_IF_Else.js` | Nested If/Else | Real-world role-based access control example |
+| `51_API_If_else.js` | API Handling | Processing API responses with conditionals |
+| `52_IQ-Even_Odd_Check.js` | IQ: Even/Odd | Check if a number is even or odd |
+| `53_IQ-ELeapYearCheck.js` | IQ: Leap Year | Determine if a year is a leap year |
+| `54-if-elseif.js` | Practice | More If/Else If practice examples |
+| `55_Switch_Case.js` | Switch Case | Multi-way branching with switch |
+| `56_IQ_HTTP Status Code Categorizer.js` | IQ: HTTP Codes | Categorize HTTP status codes |
+| `57_IQ_oddnum check.js` | IQ: Odd Check | Another odd number check variation |
+
+**Key Concepts:**
+- `if`, `else if`, `else` for conditional execution
+- Nested conditionals for complex logic
+- `switch` statement for multi-case branching
+- Real-world examples: authentication, API handling
+- Common IQ problems: even/odd, leap year, HTTP codes
+- Best practices for readable control flow
+
 ---
 
 ## Comprehensive Examples
@@ -331,8 +369,12 @@ Follow this order for best results:
 9. **String Quotes:** `chapter_05_Literals/ex29_Backtick_single_double.js`
 10. **Operators:** `chapter_06_Operators/31_Arithmatic_Operator.js`
 11. **Confusing Comparisons:** `chapter_06_Operators/38_Confusing_Comparsion.js`
-12. **All Together:** `chapter_02_JavaScript_Concepts/all_examples_in_one.js`
-13. **Reference:** `chapter_02_JavaScript_Concepts/javascript_comprehensive.js`
+12. **If/Else Basics:** `chapter_07_Statements/48_If_Else.js`
+13. **Switch Case:** `chapter_07_Statements/55_Switch_Case.js`
+14. **Real-World Conditionals:** `chapter_07_Statements/50_Real_IF_Else.js`
+15. **IQ Problems:** `chapter_07_Statements/52_IQ-Even_Odd_Check.js`
+16. **All Together:** `chapter_02_JavaScript_Concepts/all_examples_in_one.js`
+17. **Reference:** `chapter_02_JavaScript_Concepts/javascript_comprehensive.js`
 
 ---
 
