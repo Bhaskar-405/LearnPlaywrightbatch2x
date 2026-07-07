@@ -17,6 +17,7 @@ A comprehensive learning repository for JavaScript fundamentals and Playwright a
   - [Chapter 5: Literals](#chapter-5-literals)
   - [Chapter 6: Operators](#chapter-6-operators)
   - [Chapter 7: Statements (If/Else, Switch)](#chapter-7-statements-ifelse-switch)
+  - [Chapter 10: Loops](#chapter-10-loops)
 - [Comprehensive Examples](#comprehensive-examples)
 - [VS Code Shortcuts](#vs-code-shortcuts)
 - [How to Run](#how-to-run)
@@ -93,9 +94,19 @@ LearnPlaywrightbatch2x/
 │   ├── 52_IQ-Even_Odd_Check.js                 # IQ: Even or Odd number check
 │   ├── 53_IQ-ELeapYearCheck.js                 # IQ: Leap year checker
 │   ├── 54-if-elseif.js                         # If/Else If practice examples
-│   ├── 55_Switch_Case.js                       # Switch Case statement
+  │   ├── 55_Switch_Case.js                       # Switch Case statement
 │   ├── 56_IQ_HTTP Status Code Categorizer.js   # IQ: HTTP Status Code categorizer
-│   └── 57_IQ_oddnum check.js                   # IQ: Odd number check
+│   ├── 57_IQ_oddnum check.js                   # IQ: Odd number check
+│   ├── 58_IQ_print1lak_num.js                  # IQ: Print 1 lakh numbers
+│   └── 77_Do_while.js                          # Do While loop example
+│
+├── chapter_10_Loops/                           # Chapter 10: Loops (For, While, Do While)
+│   ├── 71_for_loop.js                          # For loop basics
+│   ├── 72_for_loop actual.js                   # For loop practical example
+│   ├── 73_IQ.js                                # IQ: Loop problems
+│   ├── 74_IQ-2.js                              # IQ: More loop problems
+│   ├── 75_For_Each_Of_In.js                    # ForEach, For Of, For In loops
+│   └── 76_While.js                             # While loop example
 │
 └── javascript_reference.md                     # JavaScript Reference Documentation
 ```
@@ -249,6 +260,8 @@ Control flow statements — the backbone of decision-making in JavaScript.
 | `55_Switch_Case.js` | Switch Case | Multi-way branching with switch |
 | `56_IQ_HTTP Status Code Categorizer.js` | IQ: HTTP Codes | Categorize HTTP status codes |
 | `57_IQ_oddnum check.js` | IQ: Odd Check | Another odd number check variation |
+| `58_IQ_print1lak_num.js` | IQ: Print Numbers | Print 1 lakh numbers using loops |
+| `77_Do_while.js` | Do While Loop | Do While loop execution example |
 
 **Key Concepts:**
 - `if`, `else if`, `else` for conditional execution
@@ -257,6 +270,29 @@ Control flow statements — the backbone of decision-making in JavaScript.
 - Real-world examples: authentication, API handling
 - Common IQ problems: even/odd, leap year, HTTP codes
 - Best practices for readable control flow
+
+### Chapter 10: Loops
+
+Iteration and repetition — executing code multiple times efficiently.
+
+| File | Topic | Description |
+|------|-------|-------------|
+| `71_for_loop.js` | For Loop | Basic for loop syntax and usage |
+| `72_for_loop actual.js` | For Loop Practical | Real-world for loop example |
+| `73_IQ.js` | IQ: Loop Problems | Loop-based problem solving |
+| `74_IQ-2.js` | IQ: More Loop Problems | Additional loop exercises |
+| `75_For_Each_Of_In.js` | ForEach, For Of, For In | Different loop types for arrays and objects |
+| `76_While.js` | While Loop | While loop syntax and usage |
+| `77_Do_while.js` | Do While Loop | Do While loop execution example |
+
+**Key Concepts:**
+- `for` loop: initialization, condition, increment
+- `while` loop: condition-based iteration
+- `do while` loop: execute at least once
+- `forEach`, `for of`, `for in`: modern iteration methods
+- Loop control: `break` and `continue`
+- Nested loops for multi-dimensional operations
+- Common IQ problems using loops
 
 ---
 
@@ -373,8 +409,13 @@ Follow this order for best results:
 13. **Switch Case:** `chapter_07_Statements/55_Switch_Case.js`
 14. **Real-World Conditionals:** `chapter_07_Statements/50_Real_IF_Else.js`
 15. **IQ Problems:** `chapter_07_Statements/52_IQ-Even_Odd_Check.js`
-16. **All Together:** `chapter_02_JavaScript_Concepts/all_examples_in_one.js`
-17. **Reference:** `chapter_02_JavaScript_Concepts/javascript_comprehensive.js`
+16. **Do While Loop:** `chapter_07_Statements/77_Do_while.js`
+17. **For Loop:** `chapter_10_Loops/71_for_loop.js`
+18. **While Loop:** `chapter_10_Loops/76_While.js`
+19. **Loop Variations:** `chapter_10_Loops/75_For_Each_Of_In.js`
+20. **Loop IQ Problems:** `chapter_10_Loops/73_IQ.js`
+21. **All Together:** `chapter_02_JavaScript_Concepts/all_examples_in_one.js`
+22. **Reference:** `chapter_02_JavaScript_Concepts/javascript_comprehensive.js`
 
 ---
 
