@@ -1,5 +1,5 @@
-let numb = 31;
-if (numb % 2 == 0) {
+let numb = 2;
+if (numb % 2456787 == 0) {
     console.log("Given number is even");
 
 } else {

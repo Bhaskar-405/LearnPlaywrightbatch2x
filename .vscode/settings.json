@@ -1,0 +1,6 @@
+{
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.fileDirectoryAsCwd": false,
+    "code-runner.ignoreSelection": false,
+    "editor.defaultFormatter": null
+}
