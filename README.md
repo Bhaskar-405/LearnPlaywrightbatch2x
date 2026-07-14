@@ -18,6 +18,8 @@ A comprehensive learning repository for JavaScript fundamentals and Playwright a
   - [Chapter 6: Operators](#chapter-6-operators)
   - [Chapter 7: Statements (If/Else, Switch)](#chapter-7-statements-ifelse-switch)
   - [Chapter 10: Loops](#chapter-10-loops)
+  - [Chapter 11: Arrays](#chapter-11-arrays)
+  - [Chapter 12: Functions](#chapter-12-functions)
 - [Comprehensive Examples](#comprehensive-examples)
 - [VS Code Shortcuts](#vs-code-shortcuts)
 - [How to Run](#how-to-run)
@@ -56,6 +58,15 @@ LearnPlaywrightbatch2x/
 │   └── VS_Code_keyboard_shortcut_windows.md    # VS Code Shortcuts for Windows
 │
 ├── chapter_04_JavaScript_Basics/               # Chapter 4: JavaScript Basics (Let, Const, Hoisting, TDZ)
+│   ├── 09_Var-Let-Const.js                     # var, let, const introduction
+│   ├── 10_Functions.js                         # Function definition and calling
+│   ├── 11_var_Explained.js                     # var function-scoped behavior
+│   ├── 12_Let_People_Love.js                   # let block-scoped behavior
+│   ├── 13_Const_Explained.js                   # const block-scoped behavior
+│   ├── 14_Var_function_Scoped                  # var function scope deep dive
+│   ├── 15_Let_Block_Scoped                     # let block scope deep dive
+│   ├── 16_Hoisting.js                          # var hoisting explained
+│   ├── 17_Hoisting_Function.js                 # Function hoisting behavior
 │   ├── 18_Let_Hoisting.js
 │   ├── 19_Let_Hiositing_Block copy.js
 │   ├── 20_Let_Const_TDZ.js
@@ -65,9 +76,11 @@ LearnPlaywrightbatch2x/
 │   ├── 22_literal.js
 │   ├── 23_null_undefined.js
 │   ├── 24_null.js
-│   ├── ex26_Literal_Number_all.js              # All Number types supported in JavaScript
-│   ├── ex29_Backtick_single_double.js          # Difference between backtick, single & double quotes
-│   └── Literal_All.js
+│   ├── 25_Literal_All.js                       # Comprehensive overview of all literals
+│   ├── 26_Literal_Number_all.js                # All Number types supported in JavaScript
+│   ├── 27_String_Literal.js                    # Single and double quote strings
+│   ├── 28_Template_Literal.js                  # Backtick / template literals with interpolation
+│   └── 29_Backtick_single_double.js            # Difference between backtick, single & double quotes
 │
 ├── chapter_06_Operators/                       # Chapter 6: Operators (Arithmetic, Comparison, Logical, etc.)
 │   ├── 30_Assignment_operator.js
@@ -84,7 +97,10 @@ LearnPlaywrightbatch2x/
 │   ├── 41_Ternary_operator.j
 │   ├── 42_Type_operator.js
 │   ├── 43_Increment_Decrement_operator.js
-│   └── 44_Null_operator.js
+│   ├── 44_Null_operator.js
+│   ├── 45_PostIncrement.js                     # Post-increment operator behavior
+│   ├── 46_IQ_postincrement_op.js               # IQ: Post-increment problems
+│   └── 47_advance_incre_decr_op.js             # Advanced increment/decrement operators
 │
 ├── chapter_07_Statements/                      # Chapter 7: Control Flow (If/Else, Switch Case)
 │   ├── 48_If_Else.js                           # Basic If/Else statement
@@ -94,7 +110,7 @@ LearnPlaywrightbatch2x/
 │   ├── 52_IQ-Even_Odd_Check.js                 # IQ: Even or Odd number check
 │   ├── 53_IQ-ELeapYearCheck.js                 # IQ: Leap year checker
 │   ├── 54-if-elseif.js                         # If/Else If practice examples
-  │   ├── 55_Switch_Case.js                       # Switch Case statement
+│   ├── 55_Switch_Case.js                       # Switch Case statement
 │   ├── 56_IQ_HTTP Status Code Categorizer.js   # IQ: HTTP Status Code categorizer
 │   ├── 57_IQ_oddnum check.js                   # IQ: Odd number check
 │   ├── 58_IQ_print1lak_num.js                  # IQ: Print 1 lakh numbers
@@ -106,7 +122,38 @@ LearnPlaywrightbatch2x/
 │   ├── 73_IQ.js                                # IQ: Loop problems
 │   ├── 74_IQ-2.js                              # IQ: More loop problems
 │   ├── 75_For_Each_Of_In.js                    # ForEach, For Of, For In loops
-│   └── 76_While.js                             # While loop example
+│   ├── 76_While.js                             # While loop example
+│   ├── 77_Do_While.js                          # Do While loop example
+│   ├── 78_D0_While_Ex2.js                      # Do While practical retry example
+│   ├── 79_IQ.js                                # IQ: While loop countdown
+│   ├── 80_IQ.js                                # IQ: Do While edge case
+│   ├── 81_IQ.js                                # IQ: Continue in for loop
+│   └── 82_IQ.js                                # IQ: Do While number print
+│
+├── chapter_11_Arrays/                            # Chapter 11: Arrays
+│   ├── 83_Arrays.js                            # Array basics and mixed types
+│   ├── 84_Array.js                             # Array creation methods (literal, constructor, of, from)
+│   ├── 85_Access_Array.js                      # Accessing and modifying arrays
+│   ├── 86_Array_Adding_Removing.js             # push, pop, shift, unshift
+│   ├── 87_Array_adding_Remove2.js              # splice for add, remove, replace
+│   ├── 88_Real_Example.js                      # Real-world browser list example
+│   ├── 89_Searching.js                         # indexOf, lastIndexOf, includes, find
+│   ├── 90_Iterate.js                           # Iterate arrays (for, for-of, forEach, for-in)
+│   ├── 91_Transform_Array.js                   # map, filter, reduce, flat
+│   ├── 92_Sorting_arrays.js                    # sort() and custom comparator sorting
+│   ├── 93_Slicing_array.js                     # slice() for extracting array sections
+│   ├── 94_concat_Array.js                      # concat() and spread operator for combining arrays
+│   └── 95_Array_checking.js                    # Array.isArray, every, some
+│
+├── chapter_12_Functions/                         # Chapter 12: Functions
+│   ├── 96_Function_types.js                    # Function vs Method and 4 function types
+│   ├── 97_Type1.Fn_BasicFunction.js            # Type 1: No param, no return
+│   ├── 98_Type2_With Param_No Return.js        # Type 2: With param, no return
+│   ├── 99_Type3_withoutParam_with Return.js    # Type 3: No param, with return
+│   ├── 100_Type4_withParam_with Return.js      # Type 4: With param, with return
+│   ├── 101_Template_Literal.js                 # Template literals inside functions
+│   ├── 102_Function_expression.js              # Function expressions stored in variables
+│   └── 103_Arrow_Function.js                   # Arrow functions (ES6)
 │
 └── javascript_reference.md                     # JavaScript Reference Documentation
 ```
@@ -182,12 +229,22 @@ Understanding how JavaScript handles variable declarations, hoisting, and the Te
 
 | File | Topic | Description |
 |------|-------|-------------|
+| `09_Var-Let-Const.js` | var, let, const | Introduction to variable declarations with examples |
+| `10_Functions.js` | Functions | Function definition and calling basics |
+| `11_var_Explained.js` | var Explained | var function-scoped behavior and re-declaration |
+| `12_Let_People_Love.js` | let Explained | let block-scoped behavior and loyalty |
+| `13_Const_Explained.js` | const Explained | const block-scoped behavior and immutability |
+| `14_Var_function_Scoped` | var Function Scope | Deep dive into var function scope |
+| `15_Let_Block_Scoped` | let Block Scope | Deep dive into let block scope |
+| `16_Hoisting.js` | Hoisting | var hoisting explained step by step |
+| `17_Hoisting_Function.js` | Function Hoisting | How functions are hoisted in JavaScript |
 | `18_Let_Hoisting.js` | Let Hoisting | How `let` variables are hoisted but not initialized |
 | `19_Let_Hiositing_Block copy.js` | Block Scope Hoisting | Hoisting behavior inside block scopes |
 | `20_Let_Const_TDZ.js` | TDZ (Temporal Dead Zone) | Understanding the dead zone for `let` and `const` |
 | `21_Jr_QA.js` | Junior QA Concepts | Common interview questions and concepts for QA |
 
 **Key Concepts:**
+- `var`, `let`, `const` differences
 - Variable hoisting differences (`var` vs `let`/`const`)
 - Temporal Dead Zone (TDZ)
 - Block scope vs function scope
@@ -202,9 +259,11 @@ All about JavaScript literals — numbers, strings, null, and undefined.
 | `22_literal.js` | Literals Intro | Introduction to JavaScript literals |
 | `23_null_undefined.js` | null & undefined | Difference between null and undefined |
 | `24_null.js` | null | Understanding the null value |
-| `ex26_Literal_Number_all.js` | Number Literals | All number types: decimal, hex, binary, octal, BigInt, scientific notation |
-| `ex29_Backtick_single_double.js` | String Quotes | Difference between backtick, single quote, and double quote |
-| `Literal_All.js` | All Literals | Comprehensive overview of all literals |
+| `25_Literal_All.js` | All Literals | Comprehensive overview of all literals |
+| `26_Literal_Number_all.js` | Number Literals | All number types: decimal, hex, binary, octal, BigInt, scientific notation |
+| `27_String_Literal.js` | String Literals | Single and double quote string literals |
+| `28_Template_Literal.js` | Template Literals | Backtick literals with variable interpolation |
+| `29_Backtick_single_double.js` | String Quotes | Difference between backtick, single quote, and double quote |
 
 **Key Concepts:**
 - Integer, float, and scientific notation
@@ -235,6 +294,9 @@ All JavaScript operators — arithmetic, comparison, logical, assignment, and mo
 | `42_Type_operator.js` | Type Operators | `typeof`, `instanceof` |
 | `43_Increment_Decrement_operator.js` | Increment/Decrement | `++`, `--` pre/post fix |
 | `44_Null_operator.js` | Nullish Coalescing | `??` operator for null/undefined defaults |
+| `45_PostIncrement.js` | Post-Increment | Post-increment operator behavior |
+| `46_IQ_postincrement_op.js` | IQ: Post-Increment | Post-increment problem solving |
+| `47_advance_incre_decr_op.js` | Advanced Increment/Decrement | Complex pre/post increment expressions |
 
 **Key Concepts:**
 - Arithmetic, assignment, and compound operators
@@ -283,7 +345,12 @@ Iteration and repetition — executing code multiple times efficiently.
 | `74_IQ-2.js` | IQ: More Loop Problems | Additional loop exercises |
 | `75_For_Each_Of_In.js` | ForEach, For Of, For In | Different loop types for arrays and objects |
 | `76_While.js` | While Loop | While loop syntax and usage |
-| `77_Do_while.js` | Do While Loop | Do While loop execution example |
+| `77_Do_While.js` | Do While Loop | Do While loop execution example |
+| `78_D0_While_Ex2.js` | Do While Retry | Real-world retry example with do while |
+| `79_IQ.js` | IQ: Countdown | While loop countdown problem |
+| `80_IQ.js` | IQ: Do While Edge Case | Do while edge case problem |
+| `81_IQ.js` | IQ: Continue | Using continue in for loops |
+| `82_IQ.js` | IQ: Number Print | Do while number printing |
 
 **Key Concepts:**
 - `for` loop: initialization, condition, increment
@@ -293,6 +360,60 @@ Iteration and repetition — executing code multiple times efficiently.
 - Loop control: `break` and `continue`
 - Nested loops for multi-dimensional operations
 - Common IQ problems using loops
+
+### Chapter 11: Arrays
+
+Working with collections — storing, accessing, and manipulating multiple values efficiently.
+
+| File | Topic | Description |
+|------|-------|-------------|
+| `83_Arrays.js` | Array Basics | Array creation, indexing, and mixed data types |
+| `84_Array.js` | Array Creation | Literal, constructor, `Array.of`, `Array.from` |
+| `85_Access_Array.js` | Access & Modify | Accessing elements, negative indexing with `at()`, modifying arrays |
+| `86_Array_Adding_Removing.js` | Add & Remove | `push`, `pop`, `shift`, `unshift` methods |
+| `87_Array_adding_Remove2.js` | Splice | `splice` for adding, removing, and replacing elements |
+| `88_Real_Example.js` | Real-World Example | Browser list management with iteration |
+| `89_Searching.js` | Searching | `indexOf`, `lastIndexOf`, `includes`, `find` |
+| `90_Iterate.js` | Iteration | `for`, `for...of`, `forEach`, `for...in` |
+| `91_Transform_Array.js` | Transform | `map`, `filter`, `reduce`, `flat` |
+| `92_Sorting_arrays.js` | Sorting | `sort()` with default and custom comparators |
+| `93_Slicing_array.js` | Slicing | `slice()` for extracting sub-arrays |
+| `94_concat_Array.js` | Concatenation | `concat()`, spread operator, and `join()` |
+| `95_Array_checking.js` | Checking | `Array.isArray`, `every`, `some` |
+
+**Key Concepts:**
+- Array creation methods
+- Index-based access and modification
+- Adding and removing elements
+- Searching and finding elements
+- Iteration techniques
+- Functional transformation methods
+- Sorting and slicing arrays
+- Combining arrays and checking conditions
+
+### Chapter 12: Functions
+
+Understanding reusable blocks of code — function declarations, expressions, and modern arrow functions.
+
+| File | Topic | Description |
+|------|-------|-------------|
+| `96_Function_types.js` | Function Types | Function vs Method, overview of 4 function types |
+| `97_Type1.Fn_BasicFunction.js` | Type 1 | No parameters, no return value |
+| `98_Type2_With Param_No Return.js` | Type 2 | With parameters, no return value |
+| `99_Type3_withoutParam_with Return.js` | Type 3 | No parameters, with return value |
+| `100_Type4_withParam_with Return.js` | Type 4 | With parameters and return value — most used in automation |
+| `101_Template_Literal.js` | Template Literals | Using backticks and `${}` inside functions |
+| `102_Function_expression.js` | Function Expressions | Storing functions in variables (function expressions) |
+| `103_Arrow_Function.js` | Arrow Functions | ES6 arrow functions, concise syntax, conversion rules |
+
+**Key Concepts:**
+- Function declaration vs function expression
+- Parameters vs Arguments
+- Return values and undefined
+- Template literals with function outputs
+- Arrow functions and `this` behavior
+- Four types of functions based on params and return
+- Practical use in test automation
 
 ---
 
@@ -399,23 +520,52 @@ Follow this order for best results:
 3. **Naming:** `chapter_02_JavaScript_Concepts/06_identifiers_Rules.js`
 4. **Conventions:** `chapter_02_JavaScript_Concepts/07_identifiers_part2.js`
 5. **Comments:** `chapter_02_JavaScript_Concepts/08_comments.js`
-6. **Hoisting & TDZ:** `chapter_04_JavaScript_Basics/18_Let_Hoisting.js`
-7. **Literals:** `chapter_05_Literals/22_literal.js`
-8. **Number Types:** `chapter_05_Literals/ex26_Literal_Number_all.js`
-9. **String Quotes:** `chapter_05_Literals/ex29_Backtick_single_double.js`
-10. **Operators:** `chapter_06_Operators/31_Arithmatic_Operator.js`
-11. **Confusing Comparisons:** `chapter_06_Operators/38_Confusing_Comparsion.js`
-12. **If/Else Basics:** `chapter_07_Statements/48_If_Else.js`
-13. **Switch Case:** `chapter_07_Statements/55_Switch_Case.js`
-14. **Real-World Conditionals:** `chapter_07_Statements/50_Real_IF_Else.js`
-15. **IQ Problems:** `chapter_07_Statements/52_IQ-Even_Odd_Check.js`
-16. **Do While Loop:** `chapter_07_Statements/77_Do_while.js`
-17. **For Loop:** `chapter_10_Loops/71_for_loop.js`
-18. **While Loop:** `chapter_10_Loops/76_While.js`
-19. **Loop Variations:** `chapter_10_Loops/75_For_Each_Of_In.js`
-20. **Loop IQ Problems:** `chapter_10_Loops/73_IQ.js`
-21. **All Together:** `chapter_02_JavaScript_Concepts/all_examples_in_one.js`
-22. **Reference:** `chapter_02_JavaScript_Concepts/javascript_comprehensive.js`
+6. **var, let, const:** `chapter_04_JavaScript_Basics/09_Var-Let-Const.js`
+7. **Functions:** `chapter_04_JavaScript_Basics/10_Functions.js`
+8. **var Explained:** `chapter_04_JavaScript_Basics/11_var_Explained.js`
+9. **let Explained:** `chapter_04_JavaScript_Basics/12_Let_People_Love.js`
+10. **const Explained:** `chapter_04_JavaScript_Basics/13_Const_Explained.js`
+11. **Hoisting:** `chapter_04_JavaScript_Basics/16_Hoisting.js`
+12. **Function Hoisting:** `chapter_04_JavaScript_Basics/17_Hoisting_Function.js`
+13. **Hoisting & TDZ:** `chapter_04_JavaScript_Basics/18_Let_Hoisting.js`
+14. **Literals:** `chapter_05_Literals/22_literal.js`
+15. **Number Types:** `chapter_05_Literals/26_Literal_Number_all.js`
+16. **String Literals:** `chapter_05_Literals/27_String_Literal.js`
+17. **Template Literals:** `chapter_05_Literals/28_Template_Literal.js`
+18. **String Quotes:** `chapter_05_Literals/29_Backtick_single_double.js`
+19. **Operators:** `chapter_06_Operators/31_Arithmatic_Operator.js`
+20. **Confusing Comparisons:** `chapter_06_Operators/38_Confusing_Comparsion.js`
+21. **Increment/Decrement:** `chapter_06_Operators/43_Increment_Decrement_operator.js`
+22. **Post-Increment:** `chapter_06_Operators/45_PostIncrement.js`
+23. **If/Else Basics:** `chapter_07_Statements/48_If_Else.js`
+24. **Switch Case:** `chapter_07_Statements/55_Switch_Case.js`
+25. **Real-World Conditionals:** `chapter_07_Statements/50_Real_IF_Else.js`
+26. **IQ Problems:** `chapter_07_Statements/52_IQ-Even_Odd_Check.js`
+27. **Do While Loop:** `chapter_10_Loops/77_Do_While.js`
+28. **For Loop:** `chapter_10_Loops/71_for_loop.js`
+29. **While Loop:** `chapter_10_Loops/76_While.js`
+30. **Loop Variations:** `chapter_10_Loops/75_For_Each_Of_In.js`
+31. **Loop IQ Problems:** `chapter_10_Loops/73_IQ.js`
+32. **Arrays:** `chapter_11_Arrays/83_Arrays.js`
+33. **Array Creation:** `chapter_11_Arrays/84_Array.js`
+34. **Array Methods:** `chapter_11_Arrays/86_Array_Adding_Removing.js`
+35. **Searching Arrays:** `chapter_11_Arrays/89_Searching.js`
+36. **Iterate Arrays:** `chapter_11_Arrays/90_Iterate.js`
+37. **Transform Arrays:** `chapter_11_Arrays/91_Transform_Array.js`
+38. **Sorting Arrays:** `chapter_11_Arrays/92_Sorting_arrays.js`
+39. **Slicing Arrays:** `chapter_11_Arrays/93_Slicing_array.js`
+40. **Array Concatenation:** `chapter_11_Arrays/94_concat_Array.js`
+41. **Array Checking:** `chapter_11_Arrays/95_Array_checking.js`
+42. **Function Types:** `chapter_12_Functions/96_Function_types.js`
+43. **Basic Function:** `chapter_12_Functions/97_Type1.Fn_BasicFunction.js`
+44. **Function with Params:** `chapter_12_Functions/98_Type2_With Param_No Return.js`
+45. **Function with Return:** `chapter_12_Functions/99_Type3_withoutParam_with Return.js`
+46. **Params & Return:** `chapter_12_Functions/100_Type4_withParam_with Return.js`
+47. **Template Literals in Functions:** `chapter_12_Functions/101_Template_Literal.js`
+48. **Function Expressions:** `chapter_12_Functions/102_Function_expression.js`
+49. **Arrow Functions:** `chapter_12_Functions/103_Arrow_Function.js`
+50. **All Together:** `chapter_02_JavaScript_Concepts/all_examples_in_one.js`
+51. **Reference:** `chapter_02_JavaScript_Concepts/javascript_comprehensive.js`
 
 ---
 
